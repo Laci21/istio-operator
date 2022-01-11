@@ -24,3 +24,6 @@ require (
 	k8s.io/klog/v2 v2.4.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.0.2 // indirect
 )
+
+// needs a fork to support istio operator v2 api int64/uint64 marshalling to integers
+replace github.com/gogo/protobuf => github.com/waynz0r/protobuf v1.3.3-0.20210811122234-64636cae0910

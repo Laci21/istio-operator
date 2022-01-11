@@ -185,9 +185,4 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.1.2 // indirect
 )
 
-replace (
-	github.com/banzaicloud/istio-operator/api/v2 => ./api
-
-	// needs a fork to support int64/uint64 marshalling to integers
-	github.com/gogo/protobuf => github.com/waynz0r/protobuf v1.3.3-0.20210811122234-64636cae0910
-)
+replace github.com/banzaicloud/istio-operator/api/v2 => ./api
