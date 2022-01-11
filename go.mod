@@ -8,7 +8,7 @@ require (
 	github.com/Masterminds/semver v1.5.0 // indirect
 	github.com/Masterminds/sprig v2.22.0+incompatible
 	github.com/banzaicloud/cluster-registry v0.0.7
-	github.com/banzaicloud/istio-operator/api/v2 v2.0.0
+	github.com/banzaicloud/istio-operator/api/v2 v2.11.6-0.20220111141630-d5b7a803cf71
 	github.com/banzaicloud/k8s-objectmatcher v1.5.2
 	github.com/banzaicloud/operator-tools v0.26.3
 	github.com/fatih/color v1.12.0 // indirect
